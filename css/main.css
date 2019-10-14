@@ -1,0 +1,74 @@
+/*=== Base Styles===*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*=== Class Selectors===*/
+
+.wrapper {
+    text-align: center;
+    width:90%;
+    margin: 0 auto;
+
+}
+
+.search_box {
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.searchInput {
+    padding: 10px;
+    width: 80%;
+    border-radius: 7px;
+   
+
+}
+
+.searchInput:hover {
+    color: rgb(17, 37, 212);
+    box-shadow: 6px 6px rgb(7, 163, 224);
+
+}
+
+.main {
+    max-width: 1300px;
+}
+
+.sec{
+    
+    padding: 20px;
+
+}
+
+
+
+/* === Media Query === */
+
+@media (min-width: 768px) {
+    .main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        
+    
+    }
+}
+
+@media (min-width: 1335px) {
+    .main {
+        max-width: 80%;
+        margin: auto;
+        
+
+
+    }
+}
